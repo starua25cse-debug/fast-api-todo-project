@@ -4,7 +4,7 @@ from fastapi import Depends
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session, declarative_base, sessionmaker
 
-SQLALCHEMY_DATABASE_URL = "sqlite:///./todos.db"
+SQLALCHEMY_DATABASE_URL = "postgresql://postgres.mirnwmirqxruxskpzzbj:susmoytarua01312@aws-1-ap-northeast-1.pooler.supabase.com:5432/postgres"
 
 
 engine = create_engine(
